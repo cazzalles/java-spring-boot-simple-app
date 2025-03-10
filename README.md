@@ -3,6 +3,11 @@ Just a simple RESTful App build with Java Spring Boot
 
 # Getting Started
 
+Requests: 
+`curl -X GET http://localhost:8080/hi`
+`curl -X POST http://localhost:8080/message -H "Content-Type: application/json" -d "{\"text\": \"Hello\"}"`
+
+
 ### Reference Documentation
 For further reference, please consider the following sections:
 
